@@ -44,7 +44,6 @@ function App() {
     <div style={{justifyContent: 'spaced-evenly', alignItems: 'center', overflowY: 'auto'}}>
       <TermList TermList={terms} />
       <input placeholder='Term' ref={termRef} style={{fontFamily: 'Segoe UI'}}></input>
-      <input placeholder='Image URL' ref={urlRef} style={{fontFamily: 'Segoe UI'}}></input>
       <input placeholder='Definition' ref={definitionRef} style={{fontFamily: 'Segoe UI'}}></input>
       <button onClick={handleClick} style={{fontFamily: 'Segoe UI'}}>Create</button>
       <input placeholder='Enter term to remove...' ref={removeRef} style={{fontFamily: 'Segoe UI'}}></input>
