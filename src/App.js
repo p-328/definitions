@@ -39,10 +39,10 @@ function App() {
   return (
     <div style={{justifyContent: 'spaced-evenly', alignItems: 'center', overflowY: 'auto'}}>
       <TermList TermList={terms} />
-      <input type="text" placeholder='Term' ref={termRef} style={{fontFamily: 'Segoe UI'}}></input>{" "}
-      <input type="text" placeholder='Definition' ref={definitionRef} style={{fontFamily: 'Segoe UI'}}></input>{" "}
-      <button onClick={handleClick} style={{fontFamily: 'Segoe UI'}}>Create</button>{" "}
-      <input placeholder='Enter term to remove...' ref={removeRef} style={{fontFamily: 'Segoe UI'}}></input>{" "}
+      <input type="text" placeholder='Term' ref={termRef} style={{fontFamily: 'Segoe UI'}}></input>{"  "}
+      <input type="text" placeholder='Definition' ref={definitionRef} style={{fontFamily: 'Segoe UI'}}></input>{"  "}
+      <button onClick={handleClick} style={{fontFamily: 'Segoe UI'}}>Create</button>{"  "}
+      <input placeholder='Enter term to remove...' ref={removeRef} style={{fontFamily: 'Segoe UI'}}></input>{"  "}
       <button onClick={removeTerm} style={{fontFamily: 'Segoe UI'}}>Remove</button>
     </div>
   );
